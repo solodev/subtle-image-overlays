@@ -1,4 +1,4 @@
-.section--blue {
+.section {
     background-color: #f1f6f7;
     padding-bottom: 72px;
     padding-top: 80px;
@@ -7,12 +7,12 @@
     opacity: 0.9;
 }
 
-.section--blue::after {
+.section::after {
     content: "";
-    background: url(images/bg.png) no-repeat center;
+    background: url(https://raw.githubusercontent.com/solodev/subtle-image-overlays/master/images/bg.png) no-repeat center;
     background-position: 100% bottom;
-    background-size: 250px auto; 
-    opacity: 0.2;
+    background-size: 250px auto;
+    opacity: 0.25;
     top: 0;
     left: 0;
     bottom: 5%;
@@ -23,10 +23,11 @@
 
 .btn {
     background-color: #d30b5c;
-    color: white;
+    color: #fff;
     border-radius: 0;
 }
 
 .btn:hover {
-    color: #ddd;
+    color: #fff;
+    background-color: #af094c;
 }
